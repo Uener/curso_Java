@@ -17,8 +17,6 @@ public class Program {
 		
 		List<Product>list = new ArrayList<>();
 		
-		Product prod;
-		
 		try (BufferedReader br = new BufferedReader(new FileReader(strPath))){
 			
 			String line = br.readLine();
